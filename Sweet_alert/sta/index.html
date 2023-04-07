@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Tailwind elements</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Inter font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Elements CSS -->
+    <link rel="stylesheet" href="css/index.min.css" />
+    <!-- Custom styles -->
+
+
+
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+         @apply fixed top-2.5 right-2.5 inline-flex items-center max-w-md p-5 rounded-full shadow-lg transform transition-all ;
+        }
+        .icons-auto{
+          @apply  w-7 h-7 bg-green-400 flex justify-center items-center rounded-full text-white;
+        }
+        .title-auto{
+          @apply font-bold p-1;
+        }
+        .button{
+          @apply inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+  
+    <!-- End your project here-->
+
+    <div class="flex space-x-2 justify-center  ">
+      <button  class="button">Button</button>
+    </div>
+  </body>
+
+
+  <!-- Tailwind Elements JS -->
+  <script type="text/javascript" src="js/index.min.js"></script>
+  <!-- Custom scripts -->
+
+  <script type="text/javascript"  src="js/starter.js"></script>
+
+</html>
